@@ -28,4 +28,9 @@ listint_t *swap(listint_t **present, listint_t **ordered);
 
 void selection_sort(int *array, size_t size);
 
+void quick_sort(int *array, size_t size);
+void sort(int *array, size_t onset, size_t size, size_t);
+int inspect(int *array, size_t onset, size_t finish);
+int switcher(int *, size_t, size_t, size_t);
+
 #endif
